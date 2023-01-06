@@ -11,7 +11,7 @@ symbols = ['!','@','#','$','%','&','*','(',')','-','+','_','=','/','.','?']
 roll = [1,2,3]
 
 # This variable defines how many characters the password will have
-charAmount = int(input("How many characters should your password have?"))
+charAmount = int(input("How many characters should your password have?\n"))
 
 # This list stores selected character organization that we randomly got by using the list named roll. There is probably a better way of doing this without messing with two seperate lists to define the order of characters.
 selected = []
